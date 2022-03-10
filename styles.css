@@ -4,10 +4,7 @@ html{
 }
 
 nav{
-	padding:0px;
-	text-align:center;
 	font-size:24px;
-	word-spacing:10px;
 }
 
 .navigation{
@@ -19,6 +16,29 @@ nav{
 	border-color:#CBB26A;
 }
 
+.navpages:link, .navpages:visited{
+	color:#CBB26A;
+    background-color:#000000;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+	vertical-align:7.5px;
+	margin:10px;
+}
+
+.navpages:hover, .navpages:active {
+    background-color:green;
+    color:white;
+    text-decoration:nones;
+}
+
+.title{
+	text-align:center;
+	font-size:48px;
+	font-style:italic;
+	text-shadow: 5px 5px 10px #9B7136;
+}
+	
 .banner{
 	float:center;
 	border-top-style:solid;
@@ -53,14 +73,8 @@ nav{
 	border-color:#CBB26A;
 }
 
-a:link{
-	color:#CBB26A;
-	text-decoration: none;
-}
-
-a:visited{
-	color:#A54545;
-	text-decoration: none;
+a{
+	text-decoration:none;
 }
 
 p{
