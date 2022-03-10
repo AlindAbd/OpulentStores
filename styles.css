@@ -29,8 +29,8 @@ nav{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	width: 960px;
-	height: 256px;
+	max-width:100%;
+	height:256px;
 }
 
 .sales{
