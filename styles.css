@@ -55,6 +55,7 @@ a:link{
 
 a:visited{
 	color:#A54545;
+	text-decoration: none;
 }
 
 p{
